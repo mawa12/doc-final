@@ -1,0 +1,246 @@
+/* general info */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500;1,700&display=swap'); */
+body{
+    background:black;
+  }
+  .container{
+    max-width: 1170px;
+  margin:20;
+}
+
+.head{
+  margin-top: 120px;
+  
+}
+.img-logo{
+  float: left;
+  margin-right: 20px;
+  width: 250px;
+  height: 70px;
+  border-radius: 50%;
+  
+}
+
+.liste-acceuil{
+  display: flex;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+a{
+  margin-top: 30px;
+  padding-right: 15px;
+  font-size: 17px;
+    font-weight:30px;
+  text-decoration: none;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dropbtn {
+  margin-top: 10px;
+  color:white;
+  padding: 16px;
+ 
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:rgb(214, 205, 205);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px white;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover{background-color:black}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  margin-top: 10px;
+}
+.mh{
+  margin-right: 40px;
+}
+span#rej-num{
+  float: right;
+  margin-bottom: 30px;
+  padding-right: 15px;
+  font-size: 17px;
+  color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgba(255, 68, 0, 0.733);
+  width: 120px;
+  height: 70px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 5px;
+  
+
+}
+.section-milieu{
+  width: auto;
+  background-image: url(./Clark_GTS20-Eyecatcher.webp);
+  height: 700px;
+  margin-top: 30px;
+  
+  position: relative;
+}
+
+.span-acceuil{
+  margin-top: 50px;
+  padding-top: 50px;
+  display:flex;
+  position: absolute;
+  font-family: Poppins;
+   font-size: 40px;
+  margin-top:30px;
+  width: 500px;
+  height: 550px;
+  opacity: 0.7;
+  background-color: black;
+  z-index: 1;
+  color:white;
+ margin-left: 40px;
+ 
+  padding-left: 30px;
+
+  
+ 
+}
+.div-location {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.right-mil{
+  
+  font-weight: 400;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  margin-bottom: 30px;
+  white-space:pre-line;
+  text-align: center;
+}
+.img-location{
+  display: flex;
+  justify-content: space-between;
+}
+.left-mil{
+  margin-top: 10px;
+  float: left;
+}
+.disc-loc{
+  float: left;
+  color: darkgrey;
+  width: 400px;
+
+}
+.img-location{
+  float: right;
+  
+}
+.css-desc{
+  display: flex;
+  justify-content: space-between;
+}
+.p-descreption{
+  float: left;
+  color: #fff;
+  background-color: orangered;
+  white-space:pre-line;
+}
+.p-fait {
+  float: right;
+  width: 80px;
+  height: 50PX;
+  background-color: orange;
+}
+.div-footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: orangered;
+}
+.div-fait {
+  background-color: brown;
+  width: 150px;
+  height: 50px;
+  font-family: cursive;
+  margin-top: 30px;
+  margin-right: 10px;
+  /* position: absolute; */
+  z-index: 1;
+}
+/*footer*/
+footer.foot{
+  background-color:#000 ;
+  
+  padding-top: 10px;
+  font-size: 20px;
+}
+.h1-style {
+  font-family: 'hikouregular';
+    font-weight: normal;
+    color: #b1e104;
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 70;
+}
+h2 {
+  padding-bottom: 30;
+}
+.left-footer {
+  float: left;
+  font-size: 20;
+  padding-left: 160;
+  margin-right: 30;
+  color:#fff
+}
+.right-footer {
+  float: right;
+  padding-right: 200;
+  font-size: 20;
+  color: aliceblue;
+}
+ul {
+  list-style: none;
+  color:white;
+}
+li{
+display: inline-block;
+    padding: 10px;
+    color:white;
+}
+section a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 100;
+  color:white;
+  margin: 30;
+}
+.copy{
+  
+    font-size: 16;
+    text-align: center;
+
+}
+/*end footer*/
+
